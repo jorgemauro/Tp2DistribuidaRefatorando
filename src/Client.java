@@ -9,7 +9,7 @@ public class Client implements Runnable {
     HashMap<String,Client> Brothers;
     boolean canTalk;
     int port;
-    public Client(int ip, int port){
+    public Client(int port, int ip){
         this.ip=ip;
         this.canTalk=false;
         this.port=port;

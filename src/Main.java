@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Client client=new Client(2628,1);
+
+        client.run();
+
     }
 }
